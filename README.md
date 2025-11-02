@@ -1,12 +1,12 @@
-# File Summarizer with Gemini AI
+# File Summariser with Gemini AI
 
-A simple Python command-line tool that summarizes text files, PDFs, and Word documents using Google's Gemini AI.
+A simple Python command-line tool that summarises text files, PDFs, and Word documents using Google's Gemini AI.
 
 ## Features
 
 - 📄 Supports multiple file formats: `.txt`, `.pdf`, `.docx`
 - 🤖 Powered by Google Gemini AI (gemini-2.5-flash)
-- ⚙️ Custom summarization instructions
+- ⚙️ Custom summarisation instructions
 - 💾 Save summaries to file or view in terminal
 - 🛡️ Error handling for missing files, empty content, and API issues
 
@@ -74,18 +74,18 @@ Done!
 
 ## Custom Instructions
 
-You can customize how the AI summarizes your document:
+You can customise how the AI summarises your document:
 
 ```
 Use custom instructions? (y/n, default=n): y
-Enter your instructions: Summarize in 3 bullet points focusing on main arguments
+Enter your instructions: Summarise in 3 bullet points focusing on main arguments
 ```
 
 ## Project Structure
 
 ```
 .
-├── file-summariser.py              # Main application script
+├── file-summariser.py   # Main application script
 ├── requirements.txt     # Python dependencies
 ├── .env                # Your API key
 ├── .gitignore          # Git ignore rules
