@@ -19,8 +19,8 @@ A simple Python command-line tool that summarises text files, PDFs, and Word doc
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/rsilinevich/file-summariser
+cd file-summariser
 ```
 
 2. Install dependencies:
